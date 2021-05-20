@@ -70,6 +70,7 @@ function OpenModerationIssuesPanel({
               className="py2 border-row-divider"
               request={request}
               onModerate={isModerator && onModerate}
+              onComment={() => {}}
             />
           );
         })}
